@@ -250,6 +250,8 @@ addons = [MitmproxySender()]
                 Write-Host "Error: certutil failed to add certificate to the root store."
                 Write-Host "Please install the certificate manually by double-clicking on it and following the prompts."
                 Stop-Process -Name "mitmproxy" -ErrorAction SilentlyContinue -Force
+                # Even if it fails, we still create the cert_installed.yes file to avoid repeated attempts
+                New-Item -Path "$env:MAIN_HOME\cert_installed.yes" -ItemType File -Force | Out-Null
                 break
                 return
             }

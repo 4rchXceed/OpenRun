@@ -78,7 +78,7 @@ You can download it from the official Microsoft website: https://www.microsoft.c
 ## Run the program
 
 ```bash
-python main.py
+python3 main.py
 ```
 
 ## Config the install
