@@ -1,0 +1,22 @@
+config/net.json
+config/ips.json
+tmp/
+MalwareSamples/
+.venv/
+db/sessions/*
+!db/sessions/.keep
+disks/*
+!disks/.keep
+
+# Created by https://www.toptal.com/developers/gitignore/api/pythonvanilla
+# Edit at https://www.toptal.com/developers/gitignore?templates=pythonvanilla
+
+### PythonVanilla ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Not used for now
+setup_user.sh
+setup_root.sh

@@ -1,0 +1,7 @@
+- Allow scrolling though actions if too many to fit on screen
+- Full-context AI mode
+- Refactor the ui/ui.py and ui/ai.py to match code best practices (more OOP, less spaghetti code)
+- Catch some errors
+- Better logging in the webui (for now, there's only logging in the console)$
+- More detailed registry monitoring (currently kinda crap)
+- Better sessions management (ability to delete sessions, better naming, etc.)
